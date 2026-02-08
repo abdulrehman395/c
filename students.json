@@ -1,0 +1,115 @@
+[
+  {
+    "rollNo":"1",
+    "password":"1",
+    "class":"9",
+    "group":"Computer",
+    "name":"Abdur Rehman",
+    "feestatus":"Paid",
+    "fees": {
+    "paidMonths": ["January", "February", "March"]
+    },
+
+    "attendance": [
+      { "month": "January", "percentage": 90 },
+      { "month": "February", "percentage": 92 },
+      { "month": "March", "percentage": 80 },
+      { "month": "April", "percentage": 70 }
+    ],
+
+    "termresult": [
+      { "exam": "Term-01", "grade": "B", "marks": 78 },
+      { "exam": "Term-02", "grade": "A", "marks": 90 },
+      { "exam": "Term-03", "grade": "A", "marks": 96 }
+    ]
+  },
+  {
+    "rollNo":"1",
+    "password":"1",
+    "class":"11",
+    "group":"Computer",
+    "name":"Ibrahim",
+    "fees": {
+      "total": 50000,
+      "paid": 35000
+    },
+
+    "attendance": [
+      { "month": "January", "percentage": 90 },
+      { "month": "February", "percentage": 92 }
+    ],
+
+    "results": [
+      { "exam": "Term-01", "grade": "B", "marks": 78 }
+    ]
+  },
+  {
+    "rollNo":"3",
+    "password":"3",
+    "class":"11",
+    "group":"Computer",
+    "name":"Zoniya"
+  },
+  {
+    "rollNo":"4",
+    "password":"4",
+    "class":"9",
+    "group":"Computer",
+    "name":"Taha"
+  },
+  {
+    "rollNo":"5",
+    "password":"5",
+    "class":"9",
+    "group":"Computer",
+    "name":"Abdul Mannan"
+  },
+  {
+    "rollNo":"6",
+    "password":"6",
+    "class":"10",
+    "group":"Biology",
+    "name":"Aliha",
+    "fees": {
+      "total": 50000,
+      "paid": 35000
+    },
+
+    "attendance": [
+      { "month": "January", "percentage": 90 },
+      { "month": "February", "percentage": 92 }
+    ],
+
+    "results": [
+      { "exam": "Term-01", "grade": "B", "marks": 78 }
+    ]
+  },
+  {
+    "rollNo":"7",
+    "password":"7",
+    "class":"9",
+    "group":"Biology",
+    "name":"Fizra"
+  },
+  {
+    "rollNo":"8",
+    "password":"8",
+    "class":"9",
+    "group":"Biology",
+    "name":"Zain"
+  },
+  {
+    "rollNo":"9",
+    "password":"9",
+    "class":"9",
+    "group":"Biology",
+    "name":"Ali"
+  },
+  {
+    "rollNo":"10",
+    "password":"10",
+    "class":"9",
+    "group":"Biology",
+    "name":"Maha"
+  }
+]

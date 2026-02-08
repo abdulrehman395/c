@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Dashboard</title>
+  <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+
+<div class="dashboard">
+
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <h2 class="logo">🎓 Student Portal</h2>
+    <nav>
+      <a href="dashboard.html" class="active">🏠 Dashboard</a>
+      <a href="fees.html">💰 Fees</a>
+      <a href="attendance.html">📅 Attendance</a>
+      <a href="result.html">📊 Result</a>
+      <a href="index.html" class="logout">🚪 Logout</a>
+    </nav>
+  </aside>
+
+  <!-- Main Content -->
+  <main class="content">
+    <div class="header">
+      <h1 id="studentName">Welcome 👋</h1>
+      <p class="subtitle" id="studentInfo"></p>
+    </div>
+
+    <div class="cards">
+      <div class="card">
+        <h3>Current Fees Status</h3>
+        <p id="feesCard">Loading...</p>
+      </div>
+
+      <div class="card">
+        <h3>Latest Attendance</h3>
+        <p id="attendanceCard">Loading...</p>
+      </div>
+
+      <div class="card">
+        <h3>Last Result</h3>
+        <p id="resultCard">Loading...</p>
+      </div>
+    </div>
+  </main>
+
+</div>
+
+<script src="dashboard.js"></script>
+</body>
+</html>

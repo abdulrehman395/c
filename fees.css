@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: #f4f6f9;
+}
+
+/* ===== DASHBOARD LAYOUT ===== */
+.dashboard {
+  display: flex;
+  min-height: 100vh;
+}
+
+/* ===== SIDEBAR ===== */
+.sidebar {
+  width: 240px;
+  background: linear-gradient(180deg, #0b4f2f, #083d25);
+  color: #fff;
+  padding: 25px 20px;
+}
+
+.logo {
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 40px;
+}
+
+.sidebar nav a {
+  display: block;
+  padding: 14px 16px;
+  margin-bottom: 12px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.sidebar nav a:hover {
+  background: rgba(255,255,255,0.15);
+  padding-left: 22px;
+}
+
+.sidebar nav a.active {
+  background: rgba(255,255,255,0.25);
+  font-weight: 600;
+}
+
+.sidebar nav a.logout {
+  margin-top: 40px;
+  background: rgba(255,255,255,0.1);
+}
+
+/* ===== MAIN CONTENT ===== */
+.content {
+  flex: 1;
+  padding: 40px;
+}
+
+.content h1 {
+  font-size: 28px;
+  color: #222;
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  color: #666;
+  margin-bottom: 30px;
+}
+
+/* ===== TABLE ===== */
+.table-box {
+  background: white;
+  padding: 25px;
+  border-radius: 18px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.08);
+}
+
+.fees-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.fees-table thead {
+  background: linear-gradient(90deg,#0b4f2f,#1dbf73);
+  color: white;
+}
+
+.fees-table th,
+.fees-table td {
+  padding: 14px 18px;
+  text-align: center;
+}
+
+.fees-table tbody tr {
+  border-bottom: 1px solid #eee;
+}
+
+.fees-table tbody tr:hover {
+  background: rgba(29,191,115,0.05);
+}
+
+/* Status Colors */
+.paid {
+  color: #0b8f50;
+  font-weight: bold;
+}
+
+.unpaid {
+  color: #d12d2d;
+  font-weight: bold;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+  .sidebar {
+    width: 200px;
+  }
+  .content {
+    padding: 25px;
+  }
+}

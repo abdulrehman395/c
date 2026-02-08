@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Attendance</title>
+  <link rel="stylesheet" href="attendance.css">
+</head>
+<body>
+
+<div class="dashboard">
+
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <h2 class="logo">🎓 Student Portal</h2>
+    <nav>
+      <a href="dashboard.html">🏠 Dashboard</a>
+      <a href="fees.html">💰 Fees</a>
+      <a href="attendance.html" class="active">📅 Attendance</a>
+      <a href="result.html">📊 Result</a>
+      <a href="index.html" class="logout">🚪 Logout</a>
+    </nav>
+  </aside>
+
+  <!-- Main Content -->
+  <main class="content">
+
+    <h1>Attendance Record</h1>
+    <p class="subtitle" id="studentInfo"></p>
+
+    <div class="table-box">
+      <table>
+        <thead>
+          <tr>
+            <th>Month</th>
+            <th>Attendance %</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody id="attendanceTable">
+          <!-- Data from JS -->
+        </tbody>
+      </table>
+    </div>
+
+  </main>
+
+</div>
+
+<script src="attendance.js"></script>
+</body>
+</html>
