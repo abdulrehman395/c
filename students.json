@@ -28,17 +28,17 @@
     "results": {
       "term1": [
         ["English",50,40,"Pass"],
-        ["Comp/Bio",40,39,"Pass"],
+        ["Comp/Bio",40,39,"Fail"],
         ["Math",50,39,"Pass"],
         ["Chemistry",40,29,"Pass"],
         ["Physics",40,35,"Pass"],
-        ["Urdu",50,45,"Pass"],
+        ["Urdu",50,45,"Fail"],
         ["Islamiyat/Pak study",40,30,"Pass"]
       ],
 
       "term2": [
         ["English",50,11,"Pass"],
-        ["Comp/Bio",40,14,"Pass"],
+        ["Comp/Bio",40,14,"Fail"],
         ["Math",50,34,"Pass"],
         ["Chemistry",40,23,"Fail"],
         ["Physics",40,35,"Pass"],
@@ -67,10 +67,10 @@
       ],
 
       "term5": [
-        ["English",50,38,"fAIL"],
+        ["English",50,38,"Fail"],
         ["Comp/Bio",40,18,"Pass"],
         ["Math",50,23,"Pass"],
-        ["Chemistry",40,22,"Pass"],
+        ["Chemistry",40,22,"Fail"],
         ["Physics",40,37,"Pass"],
         ["Urdu",50,34,"Fail"],
         ["Islamiyat/Pak study",40,31,"Pass"]
@@ -78,3 +78,4 @@
     }
   }
 ]
+
