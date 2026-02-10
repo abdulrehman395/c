@@ -1,0 +1,80 @@
+[
+  {
+    "rollNo":"1",
+    "password":"1",
+    "class":"9",
+    "group":"Computer",
+    "name":"Abdur Rehman",
+
+    "feestatus":"Paid",
+
+    "fees": {
+    "paidMonths": ["January", "February", "March"]
+    },
+
+    "attendance": [
+      { "month": "January", "percentage": 90 },
+      { "month": "February", "percentage": 92 },
+      { "month": "March", "percentage": 80 },
+      { "month": "April", "percentage": 70 }
+    ],
+
+    "termresult": [
+      { "exam": "Term-01", "grade": "B", "marks": 78 },
+      { "exam": "Term-02", "grade": "A", "marks": 90 },
+      { "exam": "Term-03", "grade": "A", "marks": 96 }
+    ],
+
+    "results": {
+      "term1": [
+        ["English",50,40,"Pass"],
+        ["Comp/Bio",40,39,"Pass"],
+        ["Math",50,39,"Pass"],
+        ["Chemistry",40,29,"Pass"],
+        ["Physics",40,35,"Pass"],
+        ["Urdu",50,45,"Pass"],
+        ["Islamiyat/Pak study",40,30,"Pass"]
+      ],
+
+      "term2": [
+        ["English",50,11,"Pass"],
+        ["Comp/Bio",40,14,"Pass"],
+        ["Math",50,34,"Pass"],
+        ["Chemistry",40,23,"Fail"],
+        ["Physics",40,35,"Pass"],
+        ["Urdu",50,16,"Pass"],
+        ["Islamiyat/Pak study",40,34,"Pass"]
+      ],
+
+      "term3": [
+        ["English",50,19,"Pass"],
+        ["Comp/Bio",40,39,"Pass"],
+        ["Math",50,24,"Pass"],
+        ["Chemistry",40,17,"Pass"],
+        ["Physics",40,19,"Pass"],
+        ["Urdu",50,34,"Pass"],
+        ["Islamiyat/Pak study",40,22,"Pass"]
+      ],
+
+      "term4": [
+        ["English",50,38,"Pass"],
+        ["Comp/Bio",40,18,"Pass"],
+        ["Math",50,23,"Pass"],
+        ["Chemistry",40,22,"Pass"],
+        ["Physics",40,37,"Pass"],
+        ["Urdu",50,34,"Fail"],
+        ["Islamiyat/Pak study",40,31,"Pass"]
+      ],
+
+      "term5": [
+        ["English",50,38,"fAIL"],
+        ["Comp/Bio",40,18,"Pass"],
+        ["Math",50,23,"Pass"],
+        ["Chemistry",40,22,"Pass"],
+        ["Physics",40,37,"Pass"],
+        ["Urdu",50,34,"Fail"],
+        ["Islamiyat/Pak study",40,31,"Pass"]
+      ]
+    }
+  }
+]
