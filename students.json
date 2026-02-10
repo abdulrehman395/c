@@ -14,7 +14,7 @@
 
     "attendance": [
       { "month": "January", "percentage": 90 },
-      { "month": "February", "percentage": 92 },
+      { "month": "February", "percentage": 50 },
       { "month": "March", "percentage": 80 },
       { "month": "April", "percentage": 70 }
     ],
@@ -78,4 +78,5 @@
     }
   }
 ]
+
 
