@@ -32,7 +32,7 @@
         ["Math",50,39,"Pass"],
         ["Chemistry",40,29,"Pass"],
         ["Physics",40,35,"Pass"],
-        ["Urdu",50,45,"Fail"],
+        ["Urdu",50,"A","Fail"],
         ["Islamiyat/Pak study",40,30,"Pass"]
       ],
 
@@ -78,5 +78,6 @@
     }
   }
 ]
+
 
 
