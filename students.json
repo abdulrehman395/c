@@ -9,7 +9,7 @@
     "feestatus":"Paid",
 
     "fees": {
-    "paidMonths": ["January", "February", "March"]
+    "paidMonths": ["January", "February", "March","October"]
     },
 
     "attendance": [
@@ -78,6 +78,7 @@
     }
   }
 ]
+
 
 
 
